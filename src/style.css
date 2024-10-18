@@ -1,0 +1,52 @@
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.quote-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.quote-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: blue;
+}
+
+.date-time {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .quote-container {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    .date-time {
+        font-size: 1rem;
+    }
+}
