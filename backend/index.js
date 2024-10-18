@@ -6,7 +6,7 @@ const User=require('./usermodel');
 const bcrypt = require('bcrypt');
 const PORT=8082;
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://192.168.31.103:3000','https://3841-2409-40d0-1131-20f1-6cab-8d11-3cb3-d780.ngrok-free.app'],
+    origin: ['http://localhost:3000', 'http://192.168.31.103:3000','https://3841-2409-40d0-1131-20f1-6cab-8d11-3cb3-d780.ngrok-free.app','https://quotes-3fktp1o30-piyush-aryas-projects.vercel.app'],
     methods: ['GET', 'POST'], // Replace with your client URL
     credentials: true, // This allows cookies to be sent
 }));
