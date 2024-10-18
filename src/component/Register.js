@@ -19,7 +19,7 @@ function Registration() {
     }
     try {
         setLoading(true);
-        const response = await axios.post(`http://localhost:8082/register`,{
+        const response = await axios.post(`http://192.168.31.103:8082/register`,{
             name,
             username,
             password,

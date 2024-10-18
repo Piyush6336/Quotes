@@ -7,7 +7,7 @@ function Logout() {
 
    const handleLogout=async()=>{
     try {
-        const response= await axios.post('http://localhost:8082/logout',{}, { withCredentials: true });
+        const response= await axios.post('http://192.168.31.103:8082/logout',{}, { withCredentials: true });
         if(response.status===201){
             navigate('/login');
         }
