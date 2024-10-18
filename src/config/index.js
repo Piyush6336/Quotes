@@ -1,2 +1,2 @@
-const config={backendEndPoint:"https://quotes-el1x.onrender.com"};
+const config={backendEndPoint:"https://render.com/docs/web-services#port-binding"};
 export default config;
